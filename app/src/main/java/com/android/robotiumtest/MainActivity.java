@@ -18,7 +18,6 @@ public class MainActivity extends ActionBarActivity {
         final EditText txtInput = (EditText)findViewById(R.id.txtInput);
         final EditText txtResult = (EditText)findViewById(R.id.txtResult);
         Button btnClick = (Button)findViewById(R.id.btnClick);
-		
         btnClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
